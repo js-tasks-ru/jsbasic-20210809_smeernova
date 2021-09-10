@@ -2,7 +2,7 @@
   function highlight(table) {
     // ваш код...
 
-    let myTable = document.querySelector('tbody');
+    let myTable = table.querySelector('tbody');
     let strings = myTable.querySelectorAll('tr');
 
     for (let currentString of strings) {
